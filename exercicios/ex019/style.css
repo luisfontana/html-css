@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/* 
+
+em HTML o que é id em CSS é # (Este é aplicado somente uma vez.)
+em HTML o que é class em CSS é . (Este é aplicado mais de uma vez, ou até mais de uma vez por item.)
+
+*/
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fccdbb;
+    color: black;
+}
+
+h1 {
+    color: #F23005;
+}
+
+h1#principal {
+    background-color: #F23005;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.6em;
+    text-align: center;
+}
+
+h2 {
+    color: #F24405;
+
+}
+
+.iniciante {
+    background-color: #f205055a;
+    color: #f20505;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.intermediario {  
+    background-color: #d6d9144b;
+    color: #979a11;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.avancado {   
+    background-color: #3cc72350;
+    color: #3cc723f6;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.troca {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    text-indent: 2em;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias variáveis</title>
+</head>
+<body>
+    <h1>Nesta atividade vou trabalhar com o uso de mídias adaptáveis.</h1>
+    <p>As mídias desta página estaram se adapitando a diferentes tamanhos de telas, então o com será abri-las em vários dispositivos.</p>
+
+    <picture>
+        <source media="(max-width:525px)" srcset="imagens/foto-p.jpg" type="image/jpeg">
+        <source media="(max-width:1025px )" srcset="imagens/foto-m.jpg" type="image/jpeg">
+        <img src="imagens/foto-g.jpg" alt="foto grande">
+    </picture>
+
+    <h1>Carregando arquivos de audio.</h1>
+    <audio preload="metadata" controls>
+        <source src="midia/barulho-do-foguete.mp3" type="audio/mpeg">
+        <source src="midia/canudinho.mp3" type="audio/mpeg">
+        <p>Sinto muito, mas seu navegador não é compatível com as mídias disponiveis no site. <br>
+        Para realizar o download do audio <a href="midia/barulho-do-foguete.mp3" download="barulho-do-foguete.mp3" type="audio/mpeg">Click aqui</a>.</p>
+    </audio>
+</body>
+</html>

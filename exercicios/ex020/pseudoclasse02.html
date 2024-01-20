@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classe alterações</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            background-color: black;
+            color: white;
+            width: 200px;
+        }
+
+        div:hover {
+            color: blue;
+        }        
+
+
+        .dois {
+            display: none;
+        }
+        
+        div#bloco:hover > .dois {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            display: block;
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fazendo alterações nas classes e subclasses</h1>
+    <div>
+        Mais
+            <p>Instagram</p> 
+            <p>YouTube</p> 
+            <p>Facebook</p> 
+    </div>
+    
+    <div id="bloco"> 
+        Olhe pra cá
+        <p class="dois">01</p>
+        <p class="dois">02</p>
+        <p class="dois">03</p>
+        <p class="dois">04</p>
+    </div>
+</body>
+</html>

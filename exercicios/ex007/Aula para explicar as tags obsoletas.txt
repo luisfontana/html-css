@@ -1,0 +1,2 @@
+	Aula usada para explicar sobre o uso de algumas tags obsoletas que logo estaram em desuso, passado tbm o site da W3C para busca das informações sobre as diferenças entre o HTML4 e HTML5 e as tags que forem sugindo novas.
+	Até foi feito alguns arquivos index mas como forma de exibição dessas tags obsoletas e algumas formas corretas de uso.

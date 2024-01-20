@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando as pseudo-classes</title>
+    <style>
+        body {
+            font: normal 1em Arial, sans-serif;
+        }
+
+        div:hover > p > a {
+            display: block;
+        }
+
+        a {
+            display: none;
+            background-color: yellow;
+            text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            color: darkred;
+            font-style: italic;
+            font-size: 2em;
+        }   
+        a:visited {
+            background-color: white;
+            text-decoration: underline;
+            color: blue;
+        }
+        a::after {
+            content:'>';
+        }
+    </style>
+</head>
+<body>
+    <h1>Farei o teste de uso de pseudo-classe e pseudo-elemento</h1>
+    <div>
+        <p>
+            Este link terá alguma alteração:<br/>
+            <a href="https://www.youtube.com" target="_blank" rel="external" >Click aqui para ir ao YouTube</a>
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(205, 199, 199);
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            color: black;
+            padding: 10px;
+            margin: 0%;
+            }
+
+            nav {
+                background-color: rgb(70, 70, 70);
+                padding: 1px;
+                box-shadow: 3px 2px 6px 1px rgba(0, 0, 0, 0.413);
+            }
+
+            nav > a {
+                text-decoration: none;
+                font-weight: bold;
+                color: white;
+                margin-right: 20px;
+            }
+
+            nav>a:hover {
+                text-decoration: underline;
+            }
+
+            main {
+                background-color: white;
+                color: black;
+                text-align: justify;
+                padding: 10px;
+                margin: 5px;
+                border-radius: 20px 0px /*  Para arredondamento das bordas. border-radius: CE CD BD BE; ou uma vez para todas as bordas ou até duas confg para lados opostos.*/
+            }
+
+            article > aside {
+                background-color: rgb(70, 70, 70);
+                font-size: 14px;
+                color: white;
+                padding: 2px;
+                text-align: right;
+            }
+            
+            aside > p {
+                margin: 0px;
+            }
+
+            footer {
+                background-color: rgb(255, 255, 255);
+                color: black;
+                text-align: center;
+                padding: 5px;
+                margin: 5px;
+                box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.224);
+            }
+
+            footer > p {
+                margin: 0px;
+            }
+
+            /*div#bola {
+                height: 200px;
+                width: 200px;
+                margin: auto;
+                background-color: rgb(255, 255, 255);
+                border-radius: 50%;
+                box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.407);
+            }*/
+    </style>
+</head>
+<body>
+    <header id="cabecalho">
+        <h1>A saúde está a um único passo</h1>
+        <nav id="links">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="conteudo">
+            <h2>Tudo o que você precisa saber sobre Saúde</h2>
+            <article>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolorem laborum porro odio doloribus magnam fugiat, dignissimos blanditiis sapiente, officia velit adipisci sequi rem neque omnis incidunt nisi minus! Animi! Lorem ipsum dolor sit, consectetur adipisicing elit. Neque repellendus voluptatem corporis nihil delectus, velit nisi. Cupiditate unde earum soluta perferendis nisi inventore facere vel error ex, porro quisquam voluptas?</p>
+            </article>
+       </section>
+       <section>
+            <h2>Hoje estamos reunidos no artigo</h2>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error expedita, nemo vero, aliquid at sapiente laudantium explicabo id rerum, aut veniam quas recusandae? Sed, ut adipisci totam ipsum provident magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eum dignissimos, hic necessitatibus sed vel modi voluptas, dolorum laboriosam laudantium saepe corrupti ipsam et qui ad distinctio pariatur officiis nemo? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, animi illo necessitatibus totam dolores fuga sit omnis maxime quam laboriosam eum, ab ea nisi deleniti autem odio exercitationem eius excepturi!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident numquam quis sapiente earum et. Nostrum, numquam a ab amet, adipisci, qui laudantium dolores voluptatibus ullam animi consectetur. Numquam, animi! Numquam?</p>
+                <aside>
+                    <p>Escrito por Pedro Pereira.</p>
+                </aside>
+            </article>
+       </section>
+    </main>
+    <footer id="rodape">
+        <p>Desenvolvido do Fernando Fontana. Curso de HTML & CSS.</p>
+    </footer>
+
+    <!--<div id="bola"></div>-->
+</body>
+</html>
