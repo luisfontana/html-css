@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralização vertical em contêineres</title>
+    <style>
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+        #conteiner {
+            height: 600px;
+            width: 100%;
+            background-color: aqua;
+            padding: 20px;
+            position: absolute;
+        }
+
+        #subconteiner {
+            height: 500px;
+            width: 400px;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            text-align: justify;
+            text-indent: 10px;
+            line-height: 16px ;
+            position: relative;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <section id="conteiner">
+        <article id="subconteiner">
+            <h1>Haverá dias de glória!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolorem, hic dicta nobis illum modi commodi ea quam eveniet, ex sint consequuntur optio iusto veniam autem eligendi totam blanditiis beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cum quam velit eum iure laudantium minima eaque consequatur nisi adipisci maxime vel, labore in dolores consequuntur. Ea nesciunt numquam voluptatem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolorem, hic dicta nobis illum modi commodi ea quam eveniet, ex sint consequuntur optio iusto veniam autem eligendi totam blanditiis beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cum quam velit eum iure laudantium minima eaque consequatur nisi adipisci maxime vel, labore in dolores consequuntur. Ea nesciunt numquam voluptatem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolorem, hic dicta nobis illum modi commodi ea quam eveniet, ex sint consequuntur optio iusto veniam autem eligendi totam blanditiis beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cum quam velit eum iure laudantium minima eaque consequatur nisi adipisci maxime vel, labore in dolores consequuntur. Ea nesciunt numquam voluptatem.</p>
+    </section>
+</body>
+</html>
